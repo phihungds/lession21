@@ -61,7 +61,7 @@ nav li:hover { background: #95450f;}
 #lastnav {border-bottom: none;}
 
 
-#heading {
+#parabol {
     width: 960px;
     height: 90px;
     background: url(img/heading.png);
@@ -74,7 +74,22 @@ section {
     height: 155px;
     background: #e1c78c;
 }
+#heading {
+    width: 960px;
+}
+.heading {
+    width: 220px;
+    height: 155px;
+    padding: 0px 20px ;
+    margin: 0px 10px 0px 10px;
+    background: #e8d3a5;
+    float: left;
+}
+#heading h2 {
+    color: #de7f41;
 
+}
+#heading p {padding-top: 10px; padding-bottom: 20px; font-size: 12px;}
 
 
 
@@ -90,17 +105,38 @@ section {
 article {
     width: 340px;
     height: 550px;
+    padding: 12px;
     background: linear-gradient(white, #cfc9bd);
     float: left;
+}
+article video {
+    width: 320px;
+    height: 190px;
+    background: black;
 }
 
 aside {
     width: 500px;
     height: 345px;
-    background: mediumaquamarine;
     float: left;
     margin-left: 50px;
 }
+aside #news {
+    width: 100%;
+    height: 90px;
+    margin-top: 30px;
+}
+#news span {
+    font-size: 34px;
+    color: #db6516;
+    font-weight: 400px;
+}
+#news p {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
 
 footer {
     width: 100%;
