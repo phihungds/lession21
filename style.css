@@ -1,4 +1,4 @@
-*{margin: 0px; padding: 0px; box-sizing: border-box;}
+*{margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; box-sizing: border-box;}
 
 #wrap {
     width: 100%;
@@ -17,6 +17,9 @@ header {
     height: 318px;
     position: relative;
 }
+a {
+    text-decoration: none;
+}
 #logo {
     width: 340px;
     height: 120px;
@@ -24,6 +27,19 @@ header {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-left: 10px;
+}
+#logo img {
+    width: 300px;
+    height: 50px;
+    margin: 20px 0px 0px 20px;
+}
+#logo span {
+    width: 300px;
+    height: 30px;
+    color: white;
+    font-size: 37.5px;
+    margin-left: 20px;
+    line-height: 30px;
 }
 nav {
     width: 230px;
@@ -33,6 +49,18 @@ nav {
     top: 0px;
     right: 0px;
 }
+nav a {color: white;}
+nav li {
+    height: 40px;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #95450f;
+}
+nav li:hover { background: #95450f;}
+#lastnav {border-bottom: none;}
+
+
 #heading {
     width: 960px;
     height: 90px;
