@@ -160,10 +160,15 @@ footer {
     position: fixed;
     bottom: 0px;
 }
+footer #wapper {
+    width: 960px;
+    height: 318px;
+    margin: auto;
+    position: relative;
+}
 footer #search {
     position: absolute;
     top: 260px;
-    left: 200px;
     background: #db6516;
     border-radius: 15px;
     border: #eda011;
@@ -186,4 +191,10 @@ footer #go {
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     border: #db6516;
+}
+footer span {
+    position: absolute;
+    right: 0px;
+    top: 260px;
+    color: white;
 }
