@@ -27,6 +27,8 @@ a {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-left: 10px;
+    position: relative;
+    bottom: 305px;
 }
 #logo img {
     width: 300px;
@@ -58,7 +60,7 @@ nav li {
     border-bottom: 1px solid #95450f;
 }
 nav li:hover { background: #95450f;}
-#lastnav {border-bottom: none;}
+#lastnav {border-bottom: none; height: 100px;}
 
 
 #parabol {
